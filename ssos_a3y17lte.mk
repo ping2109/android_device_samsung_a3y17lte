@@ -44,4 +44,4 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # ShapeShiftOS stuff
 SSOS_BUILD_TYPE := UNOFFICIAL
 PRODUCT_PRODUCT_PROPERTIES += \
-	ro.ssos.cpu=SD860
+	ro.ssos.cpu=Exynos7870
