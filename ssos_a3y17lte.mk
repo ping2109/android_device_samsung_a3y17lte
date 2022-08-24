@@ -23,11 +23,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/a3y17lte/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a3y17lte
-PRODUCT_NAME := lineage_a3y17lte
+PRODUCT_NAME := ssos_a3y17lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Galaxy A3 2017
 PRODUCT_MANUFACTURER := samsung
