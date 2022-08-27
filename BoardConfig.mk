@@ -66,3 +66,7 @@ WPA_SUPPLICANT_USE_HIDL := true
 
 # inherit from the proprietary version
 -include vendor/samsung/a3y17lte/BoardConfigVendor.mk
+
+# Build restriction bypass
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
